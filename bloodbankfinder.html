@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>android blood bank</title>
+</head>
+<style>
+    h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    fieldset{
+        background-color: pink;
+    
+    }
+    h1{
+        text-align: center;
+      color:pink;
+      text-decoration-line:underline;
+    }
+    img{
+        padding-left: 50%;
+        padding-right: 50%;
+       
+    }
+</style>
+<body>
+    <div>
+        <h1>
+            BLOOD BANK FINDER
+        </h1>
+        <!--image-->
+        <img src="https://www.pngkit.com/png/detail/367-3673663_blood-bank-logo.png" alt="" width="123px">
+        <h2 >Enter youre name</h2>
+        <form action="form.php">
+            <input type="text" placeholder="enter you're name"><br><br>
+            <fieldset>
+            <h2>Select youre blood type</h2>
+            <label for="bloodtypeA+">
+                <input type="radio" value="A+" name="bloodtype" id="bloodtypeidA+">A+
+            </label>
+            <label for="bloodtypeA-">
+                <input type="radio" value="A-" name="bloodtype" id="bloodtypeidA-">A-
+            </label>
+            <label for="bloodtypeB+">
+                <input type="radio" value="B+" name="bloodtype" id="bloodtypeidB+">B+
+            </label><label for="bloodtypeB-">
+                <input type="radio" value="B-" name="bloodtype" id="bloodtypeidB-">B-
+            </label>
+            <label for="bloodtypeAB+">
+                <input type="radio" value="AB+" name="bloodtype" id="bloodtypeidAB+">AB+
+            </label>
+            <label for="bloodtypeAB-">
+                <input type="radio" value="AB-" name="bloodtype" id="bloodtypeidAB-">AB-
+            </label>
+            <label for="bloodtypeO+">
+                <input type="radio" value="O+" name="bloodtype" id="bloodtypeidO+">O+
+            </label>
+            <label for="bloodtypeO-">
+                <input type="radio" value="O-" name="bloodtype" id="bloodtypeidO-">O-
+            </label><br>
+            </fieldset><br>
+            <fieldset>
+            <h2>Choose</h2>
+            <input type="checkbox" id="donate blood" style="color: blue;" name="donate blood" class="red blue">
+            <label for="donate blood">donate blood</label>
+            <br>
+            <input type="checkbox" id="get blood" style="color: blue;" name="get blood">
+            <label for="get blood">get blood</label>
+            </fieldset>
+            <br>
+            <h2 >Enter you're phone no.</h2>
+            <input type="number" name="Phone no." id="phone no" placeholder="enter you're phone no."><br>
+
+
+            <h2>Enter you're email</h2>
+            <input type="email" name="email" id="email" placeholder="enter you're email"><br>
+            <h2 >Enter you're Address</h2>
+            <input type="address" name="address" id="address" placeholder="enter youre address"><br>
+            <h2 >Enter date</h2>
+            <input type="date" name="date" id="date"><br>
+            <h2>Reason</h2>
+            <textarea name="reason" id="reason" cols="30" rows="10" placeholder="whrite the reason"
+                ></textarea><br>
+            select you're option <select name="blood" id="blood">
+                <option value="non">select</option>
+                <option value="donate blood">donate blood</option>
+                <option value="get blood">get blood</option>
+            </select><br>
+            <input id="submit"  type="submit"></input>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
